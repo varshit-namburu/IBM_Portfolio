@@ -1,0 +1,63 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&family=Work+Sans:ital,wght@1,400;1,500&display=swap');
+  *{
+    font-family: 'Lora', serif;
+  font-family: 'Work Sans', sans-serif;
+  }
+
+.bannerBgImage {
+    height:100vh;
+    background: url("/images/bannerImage.jpg");
+    background-size: cover;
+    position:relative;
+}
+
+.bannerText
+{
+    text-align:right;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.bannerTitle{
+    font-size:4rem;
+}
+.bannerDesc 
+{
+    font-size: 2 rem;
+
+}
+.card
+{
+    cursor:pointer;
+}
+.card:hover{
+    background-color: #F78543;
+    border:5px solid #F1F85E;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border:2px solid yellowgreen;
+}
+.card-img-top
+{
+    height:30vh;
+   
+}
+
+body{
+    background-color:#C1F3F4;
+}
+.card-img-img-fluid
+{
+  
+        width: 450px;
+        height: 280px;
+     
+}
